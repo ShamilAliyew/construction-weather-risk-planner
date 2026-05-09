@@ -288,7 +288,14 @@ if __name__ == "__main__":
 
     sys.path.append(os.path.abspath("../src"))
 
-    db_path = "../data/database/weather_daily.duckdb"
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+    db_path = os.path.join(
+        BASE_DIR,
+        "data",
+        "database",
+        "weather_daily.duckdb"
+    )
     os.makedirs(os.path.dirname(db_path), exist_ok=True)
 
     conn = get_connection(db_path)
