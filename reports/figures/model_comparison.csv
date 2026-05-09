@@ -1,0 +1,4 @@
+Model,Train F1,Test F1,Gap,Precision,Recall,AUC,Avg Prec,Brier,Threshold,CI_lower,CI_upper,CI_width
+Persistence Baseline,,0.08823529411764706,,,,,,,,,,
+Logistic Regression,0.2267,0.1113,0.1154,0.0662,0.348,0.488,0.0673,0.2326,0.5215,,,
+XGBoost (Crane Stable Final),0.2974,0.0524,0.245,0.1111,0.0343,0.5007,0.0672,0.1479,0.6115,,,
