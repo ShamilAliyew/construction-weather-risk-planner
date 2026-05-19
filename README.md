@@ -218,3 +218,5 @@ The project will be considered successful if:
 ## Summary
 
 This project transforms weather forecasting into a **construction decision-support system**, enabling companies to plan long-term operations using both classification (safe/risky) and regression (risk intensity) outputs.
+
+Presentation link => https://docs.google.com/presentation/d/1qiU0ZuYXegfqv2MsyK7XQcZ5gtwkI2Je/edit?slide=id.p1#slide=id.p1
